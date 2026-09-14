@@ -35,6 +35,7 @@ Fatima Ali
 --------------
 
 SK271
+
 Destination: Stockholm
 Departure: 10:15
 Gate: B1
@@ -47,6 +48,7 @@ George Smith
 --------------
 
 LH2491
+
 Destination: Munich
 Departure: 12:40
 Gate: A4
@@ -60,15 +62,25 @@ Noah Wilson
 
 
 ALL THE CORRECTLY WORKING FUNCTIONS MUST RETURN THE FOLLOWING:
+
 find_flight(...): Return normalized flight key or None
+
 passenger_exists(...): Return True/False, case-insensitive
+
 check_in_passenger(...): Return one of OK, FLIGHT_NOT_FOUND, EMPTY_NAME, DUPLICATE, FULL, RESTRICTED
+
 remove_passenger(...): Return OK, FLIGHT_NOT_FOUND, or PASSENGER_NOT_FOUND
+
 change_gate(...): Return OK, FLIGHT_NOT_FOUND, or INVALID_GATE
+
 flight_status(...): Return AVAILABLE, ALMOST FULL, or FULL
+
 sorted_manifest(...): Return a sorted copy of passenger names, or None
+
 total_passengers(...): Return total passenger count
+
 any_full_flight(...): Return True/False
+
 all_flights_have_passengers(...): Return True/False
 
 
