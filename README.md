@@ -85,6 +85,7 @@ any_full_flight(...): Return True/False
 all_flights_have_passengers(...): Return True/False
 
 
+----------------------------------------------------------------------------------------------------------------
 
 SETUP AND TESTING:
 - Create and activate a virtual environment
